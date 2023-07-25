@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/8154ab7ecd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Caculator using JavaScript</title>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Calculator using JavaScript</h1>
+    <div class="calculator">
+      <div class="display" id="screen">0</div>
+      <button onclick="clearScreen()">C</button>
+      <button onclick="appendToScreen('/')">/</button>
+      <button onclick="appendToScreen('*')">*</button>
+      <button onclick="appendToScreen('7')">7</button>
+      <button onclick="appendToScreen('8')">8</button>
+      <button onclick="appendToScreen('9')">9</button>
+      <button onclick="appendToScreen('-')">-</button>
+      <button onclick="appendToScreen('4')">4</button>
+      <button onclick="appendToScreen('5')">5</button>
+      <button onclick="appendToScreen('6')">6</button>
+      <button onclick="appendToScreen('+')">+</button>
+      <button onclick="appendToScreen('1')">1</button>
+      <button onclick="appendToScreen('2')">2</button>
+      <button onclick="appendToScreen('3')">3</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToScreen('0')">0</button>
+      <button onclick="appendToScreen('.')">.</button>
+      <!-- <button onclick="goBack( )">Back</button> -->
+    </div>
+    <div class="footer">
+    <footer>
+    <div class="Copyright_info"> Copyright <i class="fa-regular fa-copyright" target="_blank"> </i> 2022-23 Narendra
+      Kushwaha.All
+      rights reserved.</div>
+  <p class="react-reveal footer-text"
+      style="color: #fff9f9; animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-85724762153105-6;">
+      Made with <span role="img">❤️</span> by Narendra.
+  </p>
+</div>
+</div>
+</footer>
+    <!-- Include JavaScript file -->
+    <script src="index.js"></script>
+  </body>
+</html>
